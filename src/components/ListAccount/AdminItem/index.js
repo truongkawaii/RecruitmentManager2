@@ -112,7 +112,11 @@ function Admin({ admin }) {
             <i className="fas fa-edit" />
           </span>
           <span className="edit-btn" onClick={() => handerActiveUser(admin)}>
-            <i className="far fa-trash-alt" />
+            {admin.status === '0' ? (
+              <i className="fas fa-toggle-off" />
+            ) : (
+              <i className="fas fa-toggle-on" />
+            )}
           </span>
         </div>
       </div>

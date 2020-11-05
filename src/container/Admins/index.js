@@ -6,19 +6,21 @@ import { toast } from 'react-toastify';
 import Button from '../../common/Button';
 import './Admin.scss';
 import ListAccount from '../../components/ListAccount';
-import { getListUser, addUser } from '../../state/actions';
+import {
+  getListUser,
+  addUser,
+  sortDataUser,
+  allDataUser,
+} from '../../state/actions';
 
 function Admins() {
-  const dataUsers = useSelector(state => state.usersState.data);
+  const dataUsers = useSelector(state => state.usersState.dataSort);
+  const sortingUser = useSelector(state => state.usersState.sorting);
   const dispatch = useDispatch();
   // const antIcon = <LoadingOutlined style={{ fontSize: 35 }} spin />;
   const [showModal, setShowModal] = useState(false);
   const [valueEmail, setValueEmail] = useState({ email: null });
   const [validateEmail, setValidateEmail] = useState(false);
-
-  useEffect(() => {
-    dispatch(getListUser());
-  }, [dispatch]);
 
   const handleOk = () => {
     if (validateEmail) {
@@ -31,6 +33,12 @@ function Admins() {
 
   const handleCancel = () => {
     setShowModal(false);
+  };
+
+  const handlerSortDataUserBlock = () => {
+    if (sortingUser) {
+      dispatch(allDataUser());
+    } else dispatch(sortDataUser());
   };
 
   const handlerEmailTyping = e => {
@@ -68,11 +76,21 @@ function Admins() {
       <h2>Danh sách tài khoản admin</h2>
       <div className="btn-optionAdmin">
         <div className="btn-add">
-          <Button
-            name="admin đã xóa"
-            bgColor="rgb(27, 105, 141)"
-            color="white"
-          />
+          {sortingUser ? (
+            <Button
+              name="tất cả admin"
+              bgColor="rgb(27, 105, 141)"
+              color="white"
+              click={handlerSortDataUserBlock}
+            />
+          ) : (
+            <Button
+              name="admin đã xóa"
+              bgColor="rgb(27, 105, 141)"
+              color="white"
+              click={handlerSortDataUserBlock}
+            />
+          )}
         </div>
         <div className="btn-add">
           <Button

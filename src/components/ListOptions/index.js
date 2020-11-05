@@ -1,18 +1,25 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { useDispatch } from 'react-redux';
 import { toast } from 'react-toastify';
+import jwtDecode from 'jwt-decode';
 import admin from '../../assets/img/profile_small.jpg';
 import { userLogout } from '../../state/actions/table.action';
 
 function ListOptions() {
   const dispatch = useDispatch();
-
+  const [nameAdmin, setNameAdmin] = useState('');
+  let token = localStorage.getItem('tokens');
   const logOutUser = () => {
     dispatch(userLogout());
     toast.info('Đăng xuất thành công', { autoClose: 2500 });
   };
+
+  useEffect(() => {
+    let decode = jwtDecode(token);
+    setNameAdmin(decode.name);
+  }, []);
 
   return (
     <nav className="navbar-default navbar-static-side" role="navigation">
@@ -26,7 +33,7 @@ function ListOptions() {
               <Link data-toggle="dropdown" className="dropdown-toggle" to="#">
                 <span className="clear">
                   <span className="block m-t-xs">
-                    <strong className="font-bold">David Williams</strong>
+                    <strong className="font-bold">{nameAdmin}</strong>
                   </span>
                   <span className="text-muted text-xs block">
                     Art Director <b className="caret" />

@@ -24,6 +24,18 @@
   display: flex;
   padding: 12px 0;
   justify-content: flex-end;
+  a {
+    text-decoration: none !important;
+    display: inline-block !important;
+    background-color: #e09319;
+    padding: 10px 5px;
+    border-radius: 5px;
+    color: white;
+    &:hover {
+      background-color: #cf8001;
+      color: rgb(199, 197, 206);
+    }
+  }
 }
 .list-detail {
   background-color: #ffffff;

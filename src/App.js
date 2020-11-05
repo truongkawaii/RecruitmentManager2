@@ -7,12 +7,13 @@ import {
   Redirect,
 } from 'react-router-dom';
 import _ from 'lodash';
-// import jwtDecode from 'jwt-decode';
-import { useSelector } from 'react-redux';
+import jwtDecode from 'jwt-decode';
+import { useSelector, useDispatch } from 'react-redux';
 // import { Redirect } from 'react-router-dom';
-import pdfjs from 'pdfjs-dist';
-import pdfjsWorker from 'pdfjs-dist/build/pdf.worker.entry';
+// import pdfjs from 'pdfjs-dist';
+// import pdfjsWorker from 'pdfjs-dist/build/pdf.worker.entry';
 import { ToastContainer } from 'react-toastify';
+
 import 'react-toastify/dist/ReactToastify.css';
 import { routes } from './constant/routes';
 import LayOut from './common/Layout';
@@ -29,24 +30,22 @@ import './assets/css/animate.css';
 
 // pdfjs.GlobalWorkerOptions.workerSrc = pdfjsWorker;
 
-function App() {
+function App({ t }) {
   const tokenCheck = useSelector(state => state.tokenExpState);
   let token = localStorage.getItem('tokens');
 
   useEffect(() => {
     if (token) {
-      console.log('run');
-      // let decode = jwtDecode(token);
+      let decode = jwtDecode(token);
+      console.log(decode, 'decode');
       // dispatch(getMyInformation(decode.userId));
     }
-
     if (tokenCheck.tokenExp === false) {
       console.log(tokenCheck, 'tokenExp');
       // return <Redirect to="/login" />;
     }
-
-    return () => {};
   }, []);
+
   const renderRoutes = () =>
     _.map(routes, ({ path, exact, component: MyComponent, name }) => (
       <Route key={path} path={path} exact={exact}>

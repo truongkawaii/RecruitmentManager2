@@ -1,9 +1,11 @@
 import { axiosClient } from './config.services';
 
 class TableService {
-  static listJob() {
+  // Jobs
+  static listJob(page) {
     // return fetchData(query);
-    const url = '/recruitment';
+
+    let url = `/recruitment?page=${page}`;
     return axiosClient.get(url);
   }
 
@@ -21,6 +23,7 @@ class TableService {
     const url = `/recruitment/${id}`;
     return axiosClient.delete(url);
   }
+  // Candidate
 
   static listCandidate() {
     const url = '/candidate';
@@ -41,12 +44,14 @@ class TableService {
     const url = `/candidate/${id}`;
     return axiosClient.delete(url);
   }
+  // login
 
   static login(token) {
     const url = `/login`;
     console.log(token, 'token...');
     return axiosClient.post(url, { tokenGG: token });
   }
+  // admin
 
   static listUser() {
     const url = `/user`;
@@ -61,6 +66,24 @@ class TableService {
   static addUser(obj) {
     const url = '/user';
     return axiosClient.post(url, { ...obj });
+  }
+  // positions
+
+  static listPosition() {
+    const url = '/position';
+    return axiosClient.get(url);
+  }
+  // skills
+
+  static listSkill() {
+    const url = '/skill';
+    return axiosClient.get(url);
+  }
+
+  // address
+  static listAddress() {
+    const url = '/address';
+    return axiosClient.get(url);
   }
 }
 export default TableService;

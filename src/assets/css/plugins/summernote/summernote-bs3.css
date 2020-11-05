@@ -1,6 +1,5 @@
 .note-editor {
   /*! normalize.css v2.1.3 | MIT License | git.io/normalize */
-
 }
 .note-editor article,
 .note-editor aside,
@@ -81,7 +80,7 @@
   white-space: pre-wrap;
 }
 .note-editor q {
-  quotes: "\201C" "\201D" "\2018" "\2019";
+  quotes: '\201C''\201D''\2018''\2019';
 }
 .note-editor small {
   font-size: 80%;
@@ -134,9 +133,9 @@
   text-transform: none;
 }
 .note-editor button,
-.note-editor html input[type="button"],
-.note-editor input[type="reset"],
-.note-editor input[type="submit"] {
+.note-editor html input[type='button'],
+.note-editor input[type='reset'],
+.note-editor input[type='submit'] {
   -webkit-appearance: button;
   cursor: pointer;
 }
@@ -144,19 +143,19 @@
 .note-editor html input[disabled] {
   cursor: default;
 }
-.note-editor input[type="checkbox"],
-.note-editor input[type="radio"] {
+.note-editor input[type='checkbox'],
+.note-editor input[type='radio'] {
   box-sizing: border-box;
   padding: 0;
 }
-.note-editor input[type="search"] {
+.note-editor input[type='search'] {
   -webkit-appearance: textfield;
   -moz-box-sizing: content-box;
   -webkit-box-sizing: content-box;
   box-sizing: content-box;
 }
-.note-editor input[type="search"]::-webkit-search-cancel-button,
-.note-editor input[type="search"]::-webkit-search-decoration {
+.note-editor input[type='search']::-webkit-search-cancel-button,
+.note-editor input[type='search']::-webkit-search-decoration {
   -webkit-appearance: none;
 }
 .note-editor button::-moz-focus-inner,
@@ -184,15 +183,15 @@
     text-decoration: underline;
   }
   .note-editor a[href]:after {
-    content: " (" attr(href) ")";
+    content: ' (' attr(href) ')';
   }
   .note-editor abbr[title]:after {
-    content: " (" attr(title) ")";
+    content: ' (' attr(title) ')';
   }
   .note-editor .ir a:after,
-  .note-editor a[href^="javascript:"]:after,
-  .note-editor a[href^="#"]:after {
-    content: "";
+  .note-editor a[href^='javascript:']:after,
+  .note-editor a[href^='#']:after {
+    content: '';
   }
   .note-editor pre,
   .note-editor blockquote {
@@ -209,8 +208,8 @@
   .note-editor img {
     max-width: 100% !important;
   }
-  @page  {
-    margin: 2cm .5cm;
+  @page {
+    margin: 2cm 0.5cm;
   }
   .note-editor p,
   .note-editor h2,
@@ -256,7 +255,7 @@
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 .note-editor body {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size: 14px;
   line-height: 1.428571429;
   color: #333333;
@@ -401,7 +400,7 @@
 .note-editor .h4,
 .note-editor .h5,
 .note-editor .h6 {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 500;
   line-height: 1.1;
   color: inherit;
@@ -543,24 +542,22 @@
   }
   .note-editor .dl-horizontal dd:before,
   .note-editor .dl-horizontal dd:after {
-    content: " ";
+    content: ' ';
     /* 1 */
-  
+
     display: table;
     /* 2 */
-  
   }
   .note-editor .dl-horizontal dd:after {
     clear: both;
   }
   .note-editor .dl-horizontal dd:before,
   .note-editor .dl-horizontal dd:after {
-    content: " ";
+    content: ' ';
     /* 1 */
-  
+
     display: table;
     /* 2 */
-  
   }
   .note-editor .dl-horizontal dd:after {
     clear: both;
@@ -617,7 +614,7 @@
 }
 .note-editor blockquote:before,
 .note-editor blockquote:after {
-  content: "";
+  content: '';
 }
 .note-editor address {
   margin-bottom: 20px;
@@ -628,7 +625,7 @@
 .note-editor kdb,
 .note-editor pre,
 .note-editor samp {
-  font-family: Monaco, Menlo, Consolas, "Courier New", monospace;
+  font-family: Monaco, Menlo, Consolas, 'Courier New', monospace;
 }
 .note-editor code {
   padding: 2px 4px;
@@ -671,24 +668,22 @@
 }
 .note-editor .container:before,
 .note-editor .container:after {
-  content: " ";
+  content: ' ';
   /* 1 */
 
   display: table;
   /* 2 */
-
 }
 .note-editor .container:after {
   clear: both;
 }
 .note-editor .container:before,
 .note-editor .container:after {
-  content: " ";
+  content: ' ';
   /* 1 */
 
   display: table;
   /* 2 */
-
 }
 .note-editor .container:after {
   clear: both;
@@ -699,35 +694,90 @@
 }
 .note-editor .row:before,
 .note-editor .row:after {
-  content: " ";
+  content: ' ';
   /* 1 */
 
   display: table;
   /* 2 */
-
 }
 .note-editor .row:after {
   clear: both;
 }
 .note-editor .row:before,
 .note-editor .row:after {
-  content: " ";
+  content: ' ';
   /* 1 */
 
   display: table;
   /* 2 */
-
 }
 .note-editor .row:after {
   clear: both;
 }
-.note-editor .col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
+.note-editor .col-xs-1,
+.col-sm-1,
+.col-md-1,
+.col-lg-1,
+.col-xs-2,
+.col-sm-2,
+.col-md-2,
+.col-lg-2,
+.col-xs-3,
+.col-sm-3,
+.col-md-3,
+.col-lg-3,
+.col-xs-4,
+.col-sm-4,
+.col-md-4,
+.col-lg-4,
+.col-xs-5,
+.col-sm-5,
+.col-md-5,
+.col-lg-5,
+.col-xs-6,
+.col-sm-6,
+.col-md-6,
+.col-lg-6,
+.col-xs-7,
+.col-sm-7,
+.col-md-7,
+.col-lg-7,
+.col-xs-8,
+.col-sm-8,
+.col-md-8,
+.col-lg-8,
+.col-xs-9,
+.col-sm-9,
+.col-md-9,
+.col-lg-9,
+.col-xs-10,
+.col-sm-10,
+.col-md-10,
+.col-lg-10,
+.col-xs-11,
+.col-sm-11,
+.col-md-11,
+.col-lg-11,
+.col-xs-12,
+.col-sm-12,
+.col-md-12,
+.col-lg-12 {
   position: relative;
   min-height: 1px;
   padding-left: 15px;
   padding-right: 15px;
 }
-.note-editor .col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11 {
+.note-editor .col-xs-1,
+.col-xs-2,
+.col-xs-3,
+.col-xs-4,
+.col-xs-5,
+.col-xs-6,
+.col-xs-7,
+.col-xs-8,
+.col-xs-9,
+.col-xs-10,
+.col-xs-11 {
   float: left;
 }
 .note-editor .col-xs-12 {
@@ -878,7 +928,17 @@
   .note-editor .container {
     width: 750px;
   }
-  .note-editor .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11 {
+  .note-editor .col-sm-1,
+  .col-sm-2,
+  .col-sm-3,
+  .col-sm-4,
+  .col-sm-5,
+  .col-sm-6,
+  .col-sm-7,
+  .col-sm-8,
+  .col-sm-9,
+  .col-sm-10,
+  .col-sm-11 {
     float: left;
   }
   .note-editor .col-sm-12 {
@@ -1030,7 +1090,17 @@
   .note-editor .container {
     width: 970px;
   }
-  .note-editor .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11 {
+  .note-editor .col-md-1,
+  .col-md-2,
+  .col-md-3,
+  .col-md-4,
+  .col-md-5,
+  .col-md-6,
+  .col-md-7,
+  .col-md-8,
+  .col-md-9,
+  .col-md-10,
+  .col-md-11 {
     float: left;
   }
   .note-editor .col-md-12 {
@@ -1179,10 +1249,17 @@
   }
 }
 @media (min-width: 1200px) {
-  .note-editor .container {
-    width: 1170px;
-  }
-  .note-editor .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11 {
+  .note-editor .col-lg-1,
+  .col-lg-2,
+  .col-lg-3,
+  .col-lg-4,
+  .col-lg-5,
+  .col-lg-6,
+  .col-lg-7,
+  .col-lg-8,
+  .col-lg-9,
+  .col-lg-10,
+  .col-lg-11 {
     float: left;
   }
   .note-editor .col-lg-12 {
@@ -1401,12 +1478,12 @@
 .note-editor .table-hover > tbody > tr:hover > th {
   background-color: #f5f5f5;
 }
-.note-editor table col[class*="col-"] {
+.note-editor table col[class*='col-'] {
   float: none;
   display: table-column;
 }
-.note-editor table td[class*="col-"],
-.note-editor table th[class*="col-"] {
+.note-editor table td[class*='col-'],
+.note-editor table th[class*='col-'] {
   float: none;
   display: table-cell;
 }
@@ -1514,12 +1591,42 @@
   .note-editor .table-responsive > .table-bordered {
     border: 0;
   }
-  .note-editor .table-responsive > .table-bordered > thead > tr > th:first-child,
-  .note-editor .table-responsive > .table-bordered > tbody > tr > th:first-child,
-  .note-editor .table-responsive > .table-bordered > tfoot > tr > th:first-child,
-  .note-editor .table-responsive > .table-bordered > thead > tr > td:first-child,
-  .note-editor .table-responsive > .table-bordered > tbody > tr > td:first-child,
-  .note-editor .table-responsive > .table-bordered > tfoot > tr > td:first-child {
+  .note-editor
+    .table-responsive
+    > .table-bordered
+    > thead
+    > tr
+    > th:first-child,
+  .note-editor
+    .table-responsive
+    > .table-bordered
+    > tbody
+    > tr
+    > th:first-child,
+  .note-editor
+    .table-responsive
+    > .table-bordered
+    > tfoot
+    > tr
+    > th:first-child,
+  .note-editor
+    .table-responsive
+    > .table-bordered
+    > thead
+    > tr
+    > td:first-child,
+  .note-editor
+    .table-responsive
+    > .table-bordered
+    > tbody
+    > tr
+    > td:first-child,
+  .note-editor
+    .table-responsive
+    > .table-bordered
+    > tfoot
+    > tr
+    > td:first-child {
     border-left: 0;
   }
   .note-editor .table-responsive > .table-bordered > thead > tr > th:last-child,
@@ -1527,13 +1634,23 @@
   .note-editor .table-responsive > .table-bordered > tfoot > tr > th:last-child,
   .note-editor .table-responsive > .table-bordered > thead > tr > td:last-child,
   .note-editor .table-responsive > .table-bordered > tbody > tr > td:last-child,
-  .note-editor .table-responsive > .table-bordered > tfoot > tr > td:last-child {
+  .note-editor
+    .table-responsive
+    > .table-bordered
+    > tfoot
+    > tr
+    > td:last-child {
     border-right: 0;
   }
   .note-editor .table-responsive > .table-bordered > tbody > tr:last-child > th,
   .note-editor .table-responsive > .table-bordered > tfoot > tr:last-child > th,
   .note-editor .table-responsive > .table-bordered > tbody > tr:last-child > td,
-  .note-editor .table-responsive > .table-bordered > tfoot > tr:last-child > td {
+  .note-editor
+    .table-responsive
+    > .table-bordered
+    > tfoot
+    > tr:last-child
+    > td {
     border-bottom: 0;
   }
 }
@@ -1558,20 +1675,20 @@
   margin-bottom: 5px;
   font-weight: bold;
 }
-.note-editor input[type="search"] {
+.note-editor input[type='search'] {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
-.note-editor input[type="radio"],
-.note-editor input[type="checkbox"] {
+.note-editor input[type='radio'],
+.note-editor input[type='checkbox'] {
   margin: 4px 0 0;
   margin-top: 1px \9;
   /* IE8-9 */
 
   line-height: normal;
 }
-.note-editor input[type="file"] {
+.note-editor input[type='file'] {
   display: block;
 }
 .note-editor select[multiple],
@@ -1583,15 +1700,15 @@
   font-style: inherit;
   font-family: inherit;
 }
-.note-editor input[type="file"]:focus,
-.note-editor input[type="radio"]:focus,
-.note-editor input[type="checkbox"]:focus {
+.note-editor input[type='file']:focus,
+.note-editor input[type='radio']:focus,
+.note-editor input[type='checkbox']:focus {
   outline: thin dotted #333;
   outline: 5px auto -webkit-focus-ring-color;
   outline-offset: -2px;
 }
-.note-editor input[type="number"]::-webkit-outer-spin-button,
-.note-editor input[type="number"]::-webkit-inner-spin-button {
+.note-editor input[type='number']::-webkit-outer-spin-button,
+.note-editor input[type='number']::-webkit-inner-spin-button {
   height: auto;
 }
 .note-editor output {
@@ -1629,14 +1746,17 @@
   border-radius: 4px;
   -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
-  -webkit-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
-  transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+  -webkit-transition: border-color ease-in-out 0.15s,
+    box-shadow ease-in-out 0.15s;
+  transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
 }
 .note-editor .form-control:focus {
   border-color: #66afe9;
   outline: 0;
-  -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, 0.6);
-  box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, 0.6);
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075),
+    0 0 8px rgba(102, 175, 233, 0.6);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075),
+    0 0 8px rgba(102, 175, 233, 0.6);
 }
 .note-editor .form-control[disabled],
 .note-editor .form-control[readonly],
@@ -1666,10 +1786,10 @@ textarea.note-editor .form-control {
   font-weight: normal;
   cursor: pointer;
 }
-.note-editor .radio input[type="radio"],
-.note-editor .radio-inline input[type="radio"],
-.note-editor .checkbox input[type="checkbox"],
-.note-editor .checkbox-inline input[type="checkbox"] {
+.note-editor .radio input[type='radio'],
+.note-editor .radio-inline input[type='radio'],
+.note-editor .checkbox input[type='checkbox'],
+.note-editor .checkbox-inline input[type='checkbox'] {
   float: left;
   margin-left: -20px;
 }
@@ -1691,14 +1811,14 @@ textarea.note-editor .form-control {
   margin-top: 0;
   margin-left: 10px;
 }
-.note-editor input[type="radio"][disabled],
-.note-editor input[type="checkbox"][disabled],
+.note-editor input[type='radio'][disabled],
+.note-editor input[type='checkbox'][disabled],
 .note-editor .radio[disabled],
 .note-editor .radio-inline[disabled],
 .note-editor .checkbox[disabled],
 .note-editor .checkbox-inline[disabled],
-fieldset[disabled] .note-editor input[type="radio"],
-fieldset[disabled] .note-editor input[type="checkbox"],
+fieldset[disabled] .note-editor input[type='radio'],
+fieldset[disabled] .note-editor input[type='checkbox'],
 fieldset[disabled] .note-editor .radio,
 fieldset[disabled] .note-editor .radio-inline,
 fieldset[disabled] .note-editor .checkbox,
@@ -1815,8 +1935,8 @@ textarea.note-editor .input-lg {
     margin-bottom: 0;
     padding-left: 0;
   }
-  .note-editor .form-inline .radio input[type="radio"],
-  .note-editor .form-inline .checkbox input[type="checkbox"] {
+  .note-editor .form-inline .radio input[type='radio'],
+  .note-editor .form-inline .checkbox input[type='checkbox'] {
     float: none;
     margin-left: 0;
   }
@@ -1836,24 +1956,22 @@ textarea.note-editor .input-lg {
 }
 .note-editor .form-horizontal .form-group:before,
 .note-editor .form-horizontal .form-group:after {
-  content: " ";
+  content: ' ';
   /* 1 */
 
   display: table;
   /* 2 */
-
 }
 .note-editor .form-horizontal .form-group:after {
   clear: both;
 }
 .note-editor .form-horizontal .form-group:before,
 .note-editor .form-horizontal .form-group:after {
-  content: " ";
+  content: ' ';
   /* 1 */
 
   display: table;
   /* 2 */
-
 }
 .note-editor .form-horizontal .form-group:after {
   clear: both;
@@ -2193,9 +2311,9 @@ fieldset[disabled] .note-editor .btn-link:focus {
 .note-editor .btn-block + .btn-block {
   margin-top: 5px;
 }
-.note-editor input[type="submit"].btn-block,
-.note-editor input[type="reset"].btn-block,
-.note-editor input[type="button"].btn-block {
+.note-editor input[type='submit'].btn-block,
+.note-editor input[type='reset'].btn-block,
+.note-editor input[type='button'].btn-block {
   width: 100%;
 }
 .note-editor .fade {
@@ -2222,7 +2340,12 @@ fieldset[disabled] .note-editor .btn-link:focus {
 @font-face {
   font-family: 'Glyphicons Halflings';
   src: url('../fonts/glyphicons-halflings-regular.eot');
-  src: url('../fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('../fonts/glyphicons-halflings-regular.woff') format('woff'), url('../fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('../fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
+  src: url('../fonts/glyphicons-halflings-regular.eot?#iefix')
+      format('embedded-opentype'),
+    url('../fonts/glyphicons-halflings-regular.woff') format('woff'),
+    url('../fonts/glyphicons-halflings-regular.ttf') format('truetype'),
+    url('../fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular')
+      format('svg');
 }
 .note-editor .glyphicon {
   position: relative;
@@ -2238,604 +2361,604 @@ fieldset[disabled] .note-editor .btn-link:focus {
   width: 1em;
 }
 .note-editor .glyphicon-asterisk:before {
-  content: "\2a";
+  content: '\2a';
 }
 .note-editor .glyphicon-plus:before {
-  content: "\2b";
+  content: '\2b';
 }
 .note-editor .glyphicon-euro:before {
-  content: "\20ac";
+  content: '\20ac';
 }
 .note-editor .glyphicon-minus:before {
-  content: "\2212";
+  content: '\2212';
 }
 .note-editor .glyphicon-cloud:before {
-  content: "\2601";
+  content: '\2601';
 }
 .note-editor .glyphicon-envelope:before {
-  content: "\2709";
+  content: '\2709';
 }
 .note-editor .glyphicon-pencil:before {
-  content: "\270f";
+  content: '\270f';
 }
 .note-editor .glyphicon-glass:before {
-  content: "\e001";
+  content: '\e001';
 }
 .note-editor .glyphicon-music:before {
-  content: "\e002";
+  content: '\e002';
 }
 .note-editor .glyphicon-search:before {
-  content: "\e003";
+  content: '\e003';
 }
 .note-editor .glyphicon-heart:before {
-  content: "\e005";
+  content: '\e005';
 }
 .note-editor .glyphicon-star:before {
-  content: "\e006";
+  content: '\e006';
 }
 .note-editor .glyphicon-star-empty:before {
-  content: "\e007";
+  content: '\e007';
 }
 .note-editor .glyphicon-user:before {
-  content: "\e008";
+  content: '\e008';
 }
 .note-editor .glyphicon-film:before {
-  content: "\e009";
+  content: '\e009';
 }
 .note-editor .glyphicon-th-large:before {
-  content: "\e010";
+  content: '\e010';
 }
 .note-editor .glyphicon-th:before {
-  content: "\e011";
+  content: '\e011';
 }
 .note-editor .glyphicon-th-list:before {
-  content: "\e012";
+  content: '\e012';
 }
 .note-editor .glyphicon-ok:before {
-  content: "\e013";
+  content: '\e013';
 }
 .note-editor .glyphicon-remove:before {
-  content: "\e014";
+  content: '\e014';
 }
 .note-editor .glyphicon-zoom-in:before {
-  content: "\e015";
+  content: '\e015';
 }
 .note-editor .glyphicon-zoom-out:before {
-  content: "\e016";
+  content: '\e016';
 }
 .note-editor .glyphicon-off:before {
-  content: "\e017";
+  content: '\e017';
 }
 .note-editor .glyphicon-signal:before {
-  content: "\e018";
+  content: '\e018';
 }
 .note-editor .glyphicon-cog:before {
-  content: "\e019";
+  content: '\e019';
 }
 .note-editor .glyphicon-trash:before {
-  content: "\e020";
+  content: '\e020';
 }
 .note-editor .glyphicon-home:before {
-  content: "\e021";
+  content: '\e021';
 }
 .note-editor .glyphicon-file:before {
-  content: "\e022";
+  content: '\e022';
 }
 .note-editor .glyphicon-time:before {
-  content: "\e023";
+  content: '\e023';
 }
 .note-editor .glyphicon-road:before {
-  content: "\e024";
+  content: '\e024';
 }
 .note-editor .glyphicon-download-alt:before {
-  content: "\e025";
+  content: '\e025';
 }
 .note-editor .glyphicon-download:before {
-  content: "\e026";
+  content: '\e026';
 }
 .note-editor .glyphicon-upload:before {
-  content: "\e027";
+  content: '\e027';
 }
 .note-editor .glyphicon-inbox:before {
-  content: "\e028";
+  content: '\e028';
 }
 .note-editor .glyphicon-play-circle:before {
-  content: "\e029";
+  content: '\e029';
 }
 .note-editor .glyphicon-repeat:before {
-  content: "\e030";
+  content: '\e030';
 }
 .note-editor .glyphicon-refresh:before {
-  content: "\e031";
+  content: '\e031';
 }
 .note-editor .glyphicon-list-alt:before {
-  content: "\e032";
+  content: '\e032';
 }
 .note-editor .glyphicon-lock:before {
-  content: "\e033";
+  content: '\e033';
 }
 .note-editor .glyphicon-flag:before {
-  content: "\e034";
+  content: '\e034';
 }
 .note-editor .glyphicon-headphones:before {
-  content: "\e035";
+  content: '\e035';
 }
 .note-editor .glyphicon-volume-off:before {
-  content: "\e036";
+  content: '\e036';
 }
 .note-editor .glyphicon-volume-down:before {
-  content: "\e037";
+  content: '\e037';
 }
 .note-editor .glyphicon-volume-up:before {
-  content: "\e038";
+  content: '\e038';
 }
 .note-editor .glyphicon-qrcode:before {
-  content: "\e039";
+  content: '\e039';
 }
 .note-editor .glyphicon-barcode:before {
-  content: "\e040";
+  content: '\e040';
 }
 .note-editor .glyphicon-tag:before {
-  content: "\e041";
+  content: '\e041';
 }
 .note-editor .glyphicon-tags:before {
-  content: "\e042";
+  content: '\e042';
 }
 .note-editor .glyphicon-book:before {
-  content: "\e043";
+  content: '\e043';
 }
 .note-editor .glyphicon-bookmark:before {
-  content: "\e044";
+  content: '\e044';
 }
 .note-editor .glyphicon-print:before {
-  content: "\e045";
+  content: '\e045';
 }
 .note-editor .glyphicon-camera:before {
-  content: "\e046";
+  content: '\e046';
 }
 .note-editor .glyphicon-font:before {
-  content: "\e047";
+  content: '\e047';
 }
 .note-editor .glyphicon-bold:before {
-  content: "\e048";
+  content: '\e048';
 }
 .note-editor .glyphicon-italic:before {
-  content: "\e049";
+  content: '\e049';
 }
 .note-editor .glyphicon-text-height:before {
-  content: "\e050";
+  content: '\e050';
 }
 .note-editor .glyphicon-text-width:before {
-  content: "\e051";
+  content: '\e051';
 }
 .note-editor .glyphicon-align-left:before {
-  content: "\e052";
+  content: '\e052';
 }
 .note-editor .glyphicon-align-center:before {
-  content: "\e053";
+  content: '\e053';
 }
 .note-editor .glyphicon-align-right:before {
-  content: "\e054";
+  content: '\e054';
 }
 .note-editor .glyphicon-align-justify:before {
-  content: "\e055";
+  content: '\e055';
 }
 .note-editor .glyphicon-list:before {
-  content: "\e056";
+  content: '\e056';
 }
 .note-editor .glyphicon-indent-left:before {
-  content: "\e057";
+  content: '\e057';
 }
 .note-editor .glyphicon-indent-right:before {
-  content: "\e058";
+  content: '\e058';
 }
 .note-editor .glyphicon-facetime-video:before {
-  content: "\e059";
+  content: '\e059';
 }
 .note-editor .glyphicon-picture:before {
-  content: "\e060";
+  content: '\e060';
 }
 .note-editor .glyphicon-map-marker:before {
-  content: "\e062";
+  content: '\e062';
 }
 .note-editor .glyphicon-adjust:before {
-  content: "\e063";
+  content: '\e063';
 }
 .note-editor .glyphicon-tint:before {
-  content: "\e064";
+  content: '\e064';
 }
 .note-editor .glyphicon-edit:before {
-  content: "\e065";
+  content: '\e065';
 }
 .note-editor .glyphicon-share:before {
-  content: "\e066";
+  content: '\e066';
 }
 .note-editor .glyphicon-check:before {
-  content: "\e067";
+  content: '\e067';
 }
 .note-editor .glyphicon-move:before {
-  content: "\e068";
+  content: '\e068';
 }
 .note-editor .glyphicon-step-backward:before {
-  content: "\e069";
+  content: '\e069';
 }
 .note-editor .glyphicon-fast-backward:before {
-  content: "\e070";
+  content: '\e070';
 }
 .note-editor .glyphicon-backward:before {
-  content: "\e071";
+  content: '\e071';
 }
 .note-editor .glyphicon-play:before {
-  content: "\e072";
+  content: '\e072';
 }
 .note-editor .glyphicon-pause:before {
-  content: "\e073";
+  content: '\e073';
 }
 .note-editor .glyphicon-stop:before {
-  content: "\e074";
+  content: '\e074';
 }
 .note-editor .glyphicon-forward:before {
-  content: "\e075";
+  content: '\e075';
 }
 .note-editor .glyphicon-fast-forward:before {
-  content: "\e076";
+  content: '\e076';
 }
 .note-editor .glyphicon-step-forward:before {
-  content: "\e077";
+  content: '\e077';
 }
 .note-editor .glyphicon-eject:before {
-  content: "\e078";
+  content: '\e078';
 }
 .note-editor .glyphicon-chevron-left:before {
-  content: "\e079";
+  content: '\e079';
 }
 .note-editor .glyphicon-chevron-right:before {
-  content: "\e080";
+  content: '\e080';
 }
 .note-editor .glyphicon-plus-sign:before {
-  content: "\e081";
+  content: '\e081';
 }
 .note-editor .glyphicon-minus-sign:before {
-  content: "\e082";
+  content: '\e082';
 }
 .note-editor .glyphicon-remove-sign:before {
-  content: "\e083";
+  content: '\e083';
 }
 .note-editor .glyphicon-ok-sign:before {
-  content: "\e084";
+  content: '\e084';
 }
 .note-editor .glyphicon-question-sign:before {
-  content: "\e085";
+  content: '\e085';
 }
 .note-editor .glyphicon-info-sign:before {
-  content: "\e086";
+  content: '\e086';
 }
 .note-editor .glyphicon-screenshot:before {
-  content: "\e087";
+  content: '\e087';
 }
 .note-editor .glyphicon-remove-circle:before {
-  content: "\e088";
+  content: '\e088';
 }
 .note-editor .glyphicon-ok-circle:before {
-  content: "\e089";
+  content: '\e089';
 }
 .note-editor .glyphicon-ban-circle:before {
-  content: "\e090";
+  content: '\e090';
 }
 .note-editor .glyphicon-arrow-left:before {
-  content: "\e091";
+  content: '\e091';
 }
 .note-editor .glyphicon-arrow-right:before {
-  content: "\e092";
+  content: '\e092';
 }
 .note-editor .glyphicon-arrow-up:before {
-  content: "\e093";
+  content: '\e093';
 }
 .note-editor .glyphicon-arrow-down:before {
-  content: "\e094";
+  content: '\e094';
 }
 .note-editor .glyphicon-share-alt:before {
-  content: "\e095";
+  content: '\e095';
 }
 .note-editor .glyphicon-resize-full:before {
-  content: "\e096";
+  content: '\e096';
 }
 .note-editor .glyphicon-resize-small:before {
-  content: "\e097";
+  content: '\e097';
 }
 .note-editor .glyphicon-exclamation-sign:before {
-  content: "\e101";
+  content: '\e101';
 }
 .note-editor .glyphicon-gift:before {
-  content: "\e102";
+  content: '\e102';
 }
 .note-editor .glyphicon-leaf:before {
-  content: "\e103";
+  content: '\e103';
 }
 .note-editor .glyphicon-fire:before {
-  content: "\e104";
+  content: '\e104';
 }
 .note-editor .glyphicon-eye-open:before {
-  content: "\e105";
+  content: '\e105';
 }
 .note-editor .glyphicon-eye-close:before {
-  content: "\e106";
+  content: '\e106';
 }
 .note-editor .glyphicon-warning-sign:before {
-  content: "\e107";
+  content: '\e107';
 }
 .note-editor .glyphicon-plane:before {
-  content: "\e108";
+  content: '\e108';
 }
 .note-editor .glyphicon-calendar:before {
-  content: "\e109";
+  content: '\e109';
 }
 .note-editor .glyphicon-random:before {
-  content: "\e110";
+  content: '\e110';
 }
 .note-editor .glyphicon-comment:before {
-  content: "\e111";
+  content: '\e111';
 }
 .note-editor .glyphicon-magnet:before {
-  content: "\e112";
+  content: '\e112';
 }
 .note-editor .glyphicon-chevron-up:before {
-  content: "\e113";
+  content: '\e113';
 }
 .note-editor .glyphicon-chevron-down:before {
-  content: "\e114";
+  content: '\e114';
 }
 .note-editor .glyphicon-retweet:before {
-  content: "\e115";
+  content: '\e115';
 }
 .note-editor .glyphicon-shopping-cart:before {
-  content: "\e116";
+  content: '\e116';
 }
 .note-editor .glyphicon-folder-close:before {
-  content: "\e117";
+  content: '\e117';
 }
 .note-editor .glyphicon-folder-open:before {
-  content: "\e118";
+  content: '\e118';
 }
 .note-editor .glyphicon-resize-vertical:before {
-  content: "\e119";
+  content: '\e119';
 }
 .note-editor .glyphicon-resize-horizontal:before {
-  content: "\e120";
+  content: '\e120';
 }
 .note-editor .glyphicon-hdd:before {
-  content: "\e121";
+  content: '\e121';
 }
 .note-editor .glyphicon-bullhorn:before {
-  content: "\e122";
+  content: '\e122';
 }
 .note-editor .glyphicon-bell:before {
-  content: "\e123";
+  content: '\e123';
 }
 .note-editor .glyphicon-certificate:before {
-  content: "\e124";
+  content: '\e124';
 }
 .note-editor .glyphicon-thumbs-up:before {
-  content: "\e125";
+  content: '\e125';
 }
 .note-editor .glyphicon-thumbs-down:before {
-  content: "\e126";
+  content: '\e126';
 }
 .note-editor .glyphicon-hand-right:before {
-  content: "\e127";
+  content: '\e127';
 }
 .note-editor .glyphicon-hand-left:before {
-  content: "\e128";
+  content: '\e128';
 }
 .note-editor .glyphicon-hand-up:before {
-  content: "\e129";
+  content: '\e129';
 }
 .note-editor .glyphicon-hand-down:before {
-  content: "\e130";
+  content: '\e130';
 }
 .note-editor .glyphicon-circle-arrow-right:before {
-  content: "\e131";
+  content: '\e131';
 }
 .note-editor .glyphicon-circle-arrow-left:before {
-  content: "\e132";
+  content: '\e132';
 }
 .note-editor .glyphicon-circle-arrow-up:before {
-  content: "\e133";
+  content: '\e133';
 }
 .note-editor .glyphicon-circle-arrow-down:before {
-  content: "\e134";
+  content: '\e134';
 }
 .note-editor .glyphicon-globe:before {
-  content: "\e135";
+  content: '\e135';
 }
 .note-editor .glyphicon-wrench:before {
-  content: "\e136";
+  content: '\e136';
 }
 .note-editor .glyphicon-tasks:before {
-  content: "\e137";
+  content: '\e137';
 }
 .note-editor .glyphicon-filter:before {
-  content: "\e138";
+  content: '\e138';
 }
 .note-editor .glyphicon-briefcase:before {
-  content: "\e139";
+  content: '\e139';
 }
 .note-editor .glyphicon-fullscreen:before {
-  content: "\e140";
+  content: '\e140';
 }
 .note-editor .glyphicon-dashboard:before {
-  content: "\e141";
+  content: '\e141';
 }
 .note-editor .glyphicon-paperclip:before {
-  content: "\e142";
+  content: '\e142';
 }
 .note-editor .glyphicon-heart-empty:before {
-  content: "\e143";
+  content: '\e143';
 }
 .note-editor .glyphicon-link:before {
-  content: "\e144";
+  content: '\e144';
 }
 .note-editor .glyphicon-phone:before {
-  content: "\e145";
+  content: '\e145';
 }
 .note-editor .glyphicon-pushpin:before {
-  content: "\e146";
+  content: '\e146';
 }
 .note-editor .glyphicon-usd:before {
-  content: "\e148";
+  content: '\e148';
 }
 .note-editor .glyphicon-gbp:before {
-  content: "\e149";
+  content: '\e149';
 }
 .note-editor .glyphicon-sort:before {
-  content: "\e150";
+  content: '\e150';
 }
 .note-editor .glyphicon-sort-by-alphabet:before {
-  content: "\e151";
+  content: '\e151';
 }
 .note-editor .glyphicon-sort-by-alphabet-alt:before {
-  content: "\e152";
+  content: '\e152';
 }
 .note-editor .glyphicon-sort-by-order:before {
-  content: "\e153";
+  content: '\e153';
 }
 .note-editor .glyphicon-sort-by-order-alt:before {
-  content: "\e154";
+  content: '\e154';
 }
 .note-editor .glyphicon-sort-by-attributes:before {
-  content: "\e155";
+  content: '\e155';
 }
 .note-editor .glyphicon-sort-by-attributes-alt:before {
-  content: "\e156";
+  content: '\e156';
 }
 .note-editor .glyphicon-unchecked:before {
-  content: "\e157";
+  content: '\e157';
 }
 .note-editor .glyphicon-expand:before {
-  content: "\e158";
+  content: '\e158';
 }
 .note-editor .glyphicon-collapse-down:before {
-  content: "\e159";
+  content: '\e159';
 }
 .note-editor .glyphicon-collapse-up:before {
-  content: "\e160";
+  content: '\e160';
 }
 .note-editor .glyphicon-log-in:before {
-  content: "\e161";
+  content: '\e161';
 }
 .note-editor .glyphicon-flash:before {
-  content: "\e162";
+  content: '\e162';
 }
 .note-editor .glyphicon-log-out:before {
-  content: "\e163";
+  content: '\e163';
 }
 .note-editor .glyphicon-new-window:before {
-  content: "\e164";
+  content: '\e164';
 }
 .note-editor .glyphicon-record:before {
-  content: "\e165";
+  content: '\e165';
 }
 .note-editor .glyphicon-save:before {
-  content: "\e166";
+  content: '\e166';
 }
 .note-editor .glyphicon-open:before {
-  content: "\e167";
+  content: '\e167';
 }
 .note-editor .glyphicon-saved:before {
-  content: "\e168";
+  content: '\e168';
 }
 .note-editor .glyphicon-import:before {
-  content: "\e169";
+  content: '\e169';
 }
 .note-editor .glyphicon-export:before {
-  content: "\e170";
+  content: '\e170';
 }
 .note-editor .glyphicon-send:before {
-  content: "\e171";
+  content: '\e171';
 }
 .note-editor .glyphicon-floppy-disk:before {
-  content: "\e172";
+  content: '\e172';
 }
 .note-editor .glyphicon-floppy-saved:before {
-  content: "\e173";
+  content: '\e173';
 }
 .note-editor .glyphicon-floppy-remove:before {
-  content: "\e174";
+  content: '\e174';
 }
 .note-editor .glyphicon-floppy-save:before {
-  content: "\e175";
+  content: '\e175';
 }
 .note-editor .glyphicon-floppy-open:before {
-  content: "\e176";
+  content: '\e176';
 }
 .note-editor .glyphicon-credit-card:before {
-  content: "\e177";
+  content: '\e177';
 }
 .note-editor .glyphicon-transfer:before {
-  content: "\e178";
+  content: '\e178';
 }
 .note-editor .glyphicon-cutlery:before {
-  content: "\e179";
+  content: '\e179';
 }
 .note-editor .glyphicon-header:before {
-  content: "\e180";
+  content: '\e180';
 }
 .note-editor .glyphicon-compressed:before {
-  content: "\e181";
+  content: '\e181';
 }
 .note-editor .glyphicon-earphone:before {
-  content: "\e182";
+  content: '\e182';
 }
 .note-editor .glyphicon-phone-alt:before {
-  content: "\e183";
+  content: '\e183';
 }
 .note-editor .glyphicon-tower:before {
-  content: "\e184";
+  content: '\e184';
 }
 .note-editor .glyphicon-stats:before {
-  content: "\e185";
+  content: '\e185';
 }
 .note-editor .glyphicon-sd-video:before {
-  content: "\e186";
+  content: '\e186';
 }
 .note-editor .glyphicon-hd-video:before {
-  content: "\e187";
+  content: '\e187';
 }
 .note-editor .glyphicon-subtitles:before {
-  content: "\e188";
+  content: '\e188';
 }
 .note-editor .glyphicon-sound-stereo:before {
-  content: "\e189";
+  content: '\e189';
 }
 .note-editor .glyphicon-sound-dolby:before {
-  content: "\e190";
+  content: '\e190';
 }
 .note-editor .glyphicon-sound-5-1:before {
-  content: "\e191";
+  content: '\e191';
 }
 .note-editor .glyphicon-sound-6-1:before {
-  content: "\e192";
+  content: '\e192';
 }
 .note-editor .glyphicon-sound-7-1:before {
-  content: "\e193";
+  content: '\e193';
 }
 .note-editor .glyphicon-copyright-mark:before {
-  content: "\e194";
+  content: '\e194';
 }
 .note-editor .glyphicon-registration-mark:before {
-  content: "\e195";
+  content: '\e195';
 }
 .note-editor .glyphicon-cloud-download:before {
-  content: "\e197";
+  content: '\e197';
 }
 .note-editor .glyphicon-cloud-upload:before {
-  content: "\e198";
+  content: '\e198';
 }
 .note-editor .glyphicon-tree-conifer:before {
-  content: "\e199";
+  content: '\e199';
 }
 .note-editor .glyphicon-tree-deciduous:before {
-  content: "\e200";
+  content: '\e200';
 }
 .note-editor .caret {
   display: inline-block;
@@ -2949,7 +3072,7 @@ fieldset[disabled] .note-editor .btn-link:focus {
 .note-editor .navbar-fixed-bottom .dropdown .caret {
   border-top: 0 dotted;
   border-bottom: 4px solid #000000;
-  content: "";
+  content: '';
 }
 .note-editor .dropup .dropdown-menu,
 .note-editor .navbar-fixed-bottom .dropdown .dropdown-menu {
@@ -3016,24 +3139,22 @@ fieldset[disabled] .note-editor .btn-link:focus {
 }
 .note-editor .btn-toolbar:before,
 .note-editor .btn-toolbar:after {
-  content: " ";
+  content: ' ';
   /* 1 */
 
   display: table;
   /* 2 */
-
 }
 .note-editor .btn-toolbar:after {
   clear: both;
 }
 .note-editor .btn-toolbar:before,
 .note-editor .btn-toolbar:after {
-  content: " ";
+  content: ' ';
   /* 1 */
 
   display: table;
   /* 2 */
-
 }
 .note-editor .btn-toolbar:after {
   clear: both;
@@ -3047,13 +3168,17 @@ fieldset[disabled] .note-editor .btn-link:focus {
 .note-editor .btn-toolbar > .btn-group + .btn-group {
   margin-left: 5px;
 }
-.note-editor .btn-group > .btn:not(:first-child):not(:last-child):not(.dropdown-toggle) {
+.note-editor
+  .btn-group
+  > .btn:not(:first-child):not(:last-child):not(.dropdown-toggle) {
   border-radius: 0;
 }
 .note-editor .btn-group > .btn:first-child {
   margin-left: 0;
 }
-.note-editor .btn-group > .btn:first-child:not(:last-child):not(.dropdown-toggle) {
+.note-editor
+  .btn-group
+  > .btn:first-child:not(:last-child):not(.dropdown-toggle) {
   border-bottom-right-radius: 0;
   border-top-right-radius: 0;
 }
@@ -3131,24 +3256,22 @@ fieldset[disabled] .note-editor .btn-link:focus {
 }
 .note-editor .btn-group-vertical > .btn-group:before,
 .note-editor .btn-group-vertical > .btn-group:after {
-  content: " ";
+  content: ' ';
   /* 1 */
 
   display: table;
   /* 2 */
-
 }
 .note-editor .btn-group-vertical > .btn-group:after {
   clear: both;
 }
 .note-editor .btn-group-vertical > .btn-group:before,
 .note-editor .btn-group-vertical > .btn-group:after {
-  content: " ";
+  content: ' ';
   /* 1 */
 
   display: table;
   /* 2 */
-
 }
 .note-editor .btn-group-vertical > .btn-group:after {
   clear: both;
@@ -3176,7 +3299,10 @@ fieldset[disabled] .note-editor .btn-link:focus {
   border-top-right-radius: 0;
   border-top-left-radius: 0;
 }
-.note-editor .btn-group-vertical > .btn-group:not(:first-child):not(:last-child) > .btn {
+.note-editor
+  .btn-group-vertical
+  > .btn-group:not(:first-child):not(:last-child)
+  > .btn {
   border-radius: 0;
 }
 .note-editor .btn-group-vertical > .btn-group:first-child > .btn:last-child,
@@ -3199,8 +3325,8 @@ fieldset[disabled] .note-editor .btn-link:focus {
   display: table-cell;
   width: 1%;
 }
-.note-editor [data-toggle="buttons"] > .btn > input[type="radio"],
-.note-editor [data-toggle="buttons"] > .btn > input[type="checkbox"] {
+.note-editor [data-toggle='buttons'] > .btn > input[type='radio'],
+.note-editor [data-toggle='buttons'] > .btn > input[type='checkbox'] {
   display: none;
 }
 .note-editor .input-group {
@@ -3294,15 +3420,17 @@ textarea.note-editor .input-group-sm > .input-group-btn > .btn {
   font-size: 18px;
   border-radius: 6px;
 }
-.note-editor .input-group-addon input[type="radio"],
-.note-editor .input-group-addon input[type="checkbox"] {
+.note-editor .input-group-addon input[type='radio'],
+.note-editor .input-group-addon input[type='checkbox'] {
   margin-top: 0;
 }
 .note-editor .input-group .form-control:first-child,
 .note-editor .input-group-addon:first-child,
 .note-editor .input-group-btn:first-child > .btn,
 .note-editor .input-group-btn:first-child > .dropdown-toggle,
-.note-editor .input-group-btn:last-child > .btn:not(:last-child):not(.dropdown-toggle) {
+.note-editor
+  .input-group-btn:last-child
+  > .btn:not(:last-child):not(.dropdown-toggle) {
   border-bottom-right-radius: 0;
   border-top-right-radius: 0;
 }
@@ -3347,24 +3475,22 @@ textarea.note-editor .input-group-sm > .input-group-btn > .btn {
 }
 .note-editor .nav:before,
 .note-editor .nav:after {
-  content: " ";
+  content: ' ';
   /* 1 */
 
   display: table;
   /* 2 */
-
 }
 .note-editor .nav:after {
   clear: both;
 }
 .note-editor .nav:before,
 .note-editor .nav:after {
-  content: " ";
+  content: ' ';
   /* 1 */
 
   display: table;
   /* 2 */
-
 }
 .note-editor .nav:after {
   clear: both;
@@ -3577,24 +3703,22 @@ textarea.note-editor .input-group-sm > .input-group-btn > .btn {
 }
 .note-editor .navbar:before,
 .note-editor .navbar:after {
-  content: " ";
+  content: ' ';
   /* 1 */
 
   display: table;
   /* 2 */
-
 }
 .note-editor .navbar:after {
   clear: both;
 }
 .note-editor .navbar:before,
 .note-editor .navbar:after {
-  content: " ";
+  content: ' ';
   /* 1 */
 
   display: table;
   /* 2 */
-
 }
 .note-editor .navbar:after {
   clear: both;
@@ -3606,24 +3730,22 @@ textarea.note-editor .input-group-sm > .input-group-btn > .btn {
 }
 .note-editor .navbar-header:before,
 .note-editor .navbar-header:after {
-  content: " ";
+  content: ' ';
   /* 1 */
 
   display: table;
   /* 2 */
-
 }
 .note-editor .navbar-header:after {
   clear: both;
 }
 .note-editor .navbar-header:before,
 .note-editor .navbar-header:after {
-  content: " ";
+  content: ' ';
   /* 1 */
 
   display: table;
   /* 2 */
-
 }
 .note-editor .navbar-header:after {
   clear: both;
@@ -3644,24 +3766,22 @@ textarea.note-editor .input-group-sm > .input-group-btn > .btn {
 }
 .note-editor .navbar-collapse:before,
 .note-editor .navbar-collapse:after {
-  content: " ";
+  content: ' ';
   /* 1 */
 
   display: table;
   /* 2 */
-
 }
 .note-editor .navbar-collapse:after {
   clear: both;
 }
 .note-editor .navbar-collapse:before,
 .note-editor .navbar-collapse:after {
-  content: " ";
+  content: ' ';
   /* 1 */
 
   display: table;
   /* 2 */
-
 }
 .note-editor .navbar-collapse:after {
   clear: both;
@@ -3832,8 +3952,10 @@ textarea.note-editor .input-group-sm > .input-group-btn > .btn {
   padding: 10px 15px;
   border-top: 1px solid transparent;
   border-bottom: 1px solid transparent;
-  -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 0 rgba(255, 255, 255, 0.1);
-  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 0 rgba(255, 255, 255, 0.1);
+  -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1),
+    0 1px 0 rgba(255, 255, 255, 0.1);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1),
+    0 1px 0 rgba(255, 255, 255, 0.1);
   margin-top: 8px;
   margin-bottom: 8px;
 }
@@ -3853,8 +3975,8 @@ textarea.note-editor .input-group-sm > .input-group-btn > .btn {
     margin-bottom: 0;
     padding-left: 0;
   }
-  .note-editor .navbar-form .radio input[type="radio"],
-  .note-editor .navbar-form .checkbox input[type="checkbox"] {
+  .note-editor .navbar-form .radio input[type='radio'],
+  .note-editor .navbar-form .checkbox input[type='checkbox'] {
     float: none;
     margin-left: 0;
   }
@@ -3985,14 +4107,38 @@ textarea.note-editor .input-group-sm > .input-group-btn > .btn {
     background-color: transparent;
   }
   .note-editor .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
-  .note-editor .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
-  .note-editor .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+  .note-editor
+    .navbar-default
+    .navbar-nav
+    .open
+    .dropdown-menu
+    > .active
+    > a:hover,
+  .note-editor
+    .navbar-default
+    .navbar-nav
+    .open
+    .dropdown-menu
+    > .active
+    > a:focus {
     color: #555555;
     background-color: #e7e7e7;
   }
   .note-editor .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a,
-  .note-editor .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a:hover,
-  .note-editor .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a:focus {
+  .note-editor
+    .navbar-default
+    .navbar-nav
+    .open
+    .dropdown-menu
+    > .disabled
+    > a:hover,
+  .note-editor
+    .navbar-default
+    .navbar-nav
+    .open
+    .dropdown-menu
+    > .disabled
+    > a:focus {
     color: #cccccc;
     background-color: transparent;
   }
@@ -4073,7 +4219,12 @@ textarea.note-editor .input-group-sm > .input-group-btn > .btn {
   border-bottom-color: #ffffff;
 }
 @media (max-width: 767px) {
-  .note-editor .navbar-inverse .navbar-nav .open .dropdown-menu > .dropdown-header {
+  .note-editor
+    .navbar-inverse
+    .navbar-nav
+    .open
+    .dropdown-menu
+    > .dropdown-header {
     border-color: #080808;
   }
   .note-editor .navbar-inverse .navbar-nav .open .dropdown-menu > li > a {
@@ -4085,14 +4236,38 @@ textarea.note-editor .input-group-sm > .input-group-btn > .btn {
     background-color: transparent;
   }
   .note-editor .navbar-inverse .navbar-nav .open .dropdown-menu > .active > a,
-  .note-editor .navbar-inverse .navbar-nav .open .dropdown-menu > .active > a:hover,
-  .note-editor .navbar-inverse .navbar-nav .open .dropdown-menu > .active > a:focus {
+  .note-editor
+    .navbar-inverse
+    .navbar-nav
+    .open
+    .dropdown-menu
+    > .active
+    > a:hover,
+  .note-editor
+    .navbar-inverse
+    .navbar-nav
+    .open
+    .dropdown-menu
+    > .active
+    > a:focus {
     color: #ffffff;
     background-color: #080808;
   }
   .note-editor .navbar-inverse .navbar-nav .open .dropdown-menu > .disabled > a,
-  .note-editor .navbar-inverse .navbar-nav .open .dropdown-menu > .disabled > a:hover,
-  .note-editor .navbar-inverse .navbar-nav .open .dropdown-menu > .disabled > a:focus {
+  .note-editor
+    .navbar-inverse
+    .navbar-nav
+    .open
+    .dropdown-menu
+    > .disabled
+    > a:hover,
+  .note-editor
+    .navbar-inverse
+    .navbar-nav
+    .open
+    .dropdown-menu
+    > .disabled
+    > a:focus {
     color: #444444;
     background-color: transparent;
   }
@@ -4114,7 +4289,7 @@ textarea.note-editor .input-group-sm > .input-group-btn > .btn {
   display: inline-block;
 }
 .note-editor .breadcrumb > li + li:before {
-  content: "/\00a0";
+  content: '/\00a0';
   padding: 0 5px;
   color: #cccccc;
 }
@@ -4219,24 +4394,22 @@ textarea.note-editor .input-group-sm > .input-group-btn > .btn {
 }
 .note-editor .pager:before,
 .note-editor .pager:after {
-  content: " ";
+  content: ' ';
   /* 1 */
 
   display: table;
   /* 2 */
-
 }
 .note-editor .pager:after {
   clear: both;
 }
 .note-editor .pager:before,
 .note-editor .pager:after {
-  content: " ";
+  content: ' ';
   /* 1 */
 
   display: table;
   /* 2 */
-
 }
 .note-editor .pager:after {
   clear: both;
@@ -4275,7 +4448,7 @@ textarea.note-editor .input-group-sm > .input-group-btn > .btn {
 }
 .note-editor .label {
   display: inline;
-  padding: .2em .6em .3em;
+  padding: 0.2em 0.6em 0.3em;
   font-size: 75%;
   font-weight: bold;
   line-height: 1;
@@ -4283,7 +4456,7 @@ textarea.note-editor .input-group-sm > .input-group-btn > .btn {
   text-align: center;
   white-space: nowrap;
   vertical-align: baseline;
-  border-radius: .25em;
+  border-radius: 0.25em;
 }
 .note-editor .label[href]:hover,
 .note-editor .label[href]:focus {
@@ -4564,10 +4737,48 @@ textarea.note-editor .input-group-sm > .input-group-btn > .btn {
   transition: width 0.6s ease;
 }
 .note-editor .progress-striped .progress-bar {
-  background-image: -webkit-gradient(linear, 0 100%, 100% 0, color-stop(0.25, rgba(255, 255, 255, 0.15)), color-stop(0.25, transparent), color-stop(0.5, transparent), color-stop(0.5, rgba(255, 255, 255, 0.15)), color-stop(0.75, rgba(255, 255, 255, 0.15)), color-stop(0.75, transparent), to(transparent));
-  background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
-  background-image: -moz-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
-  background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  background-image: -webkit-gradient(
+    linear,
+    0 100%,
+    100% 0,
+    color-stop(0.25, rgba(255, 255, 255, 0.15)),
+    color-stop(0.25, transparent),
+    color-stop(0.5, transparent),
+    color-stop(0.5, rgba(255, 255, 255, 0.15)),
+    color-stop(0.75, rgba(255, 255, 255, 0.15)),
+    color-stop(0.75, transparent),
+    to(transparent)
+  );
+  background-image: -webkit-linear-gradient(
+    45deg,
+    rgba(255, 255, 255, 0.15) 25%,
+    transparent 25%,
+    transparent 50%,
+    rgba(255, 255, 255, 0.15) 50%,
+    rgba(255, 255, 255, 0.15) 75%,
+    transparent 75%,
+    transparent
+  );
+  background-image: -moz-linear-gradient(
+    45deg,
+    rgba(255, 255, 255, 0.15) 25%,
+    transparent 25%,
+    transparent 50%,
+    rgba(255, 255, 255, 0.15) 50%,
+    rgba(255, 255, 255, 0.15) 75%,
+    transparent 75%,
+    transparent
+  );
+  background-image: linear-gradient(
+    45deg,
+    rgba(255, 255, 255, 0.15) 25%,
+    transparent 25%,
+    transparent 50%,
+    rgba(255, 255, 255, 0.15) 50%,
+    rgba(255, 255, 255, 0.15) 75%,
+    transparent 75%,
+    transparent
+  );
   background-size: 40px 40px;
 }
 .note-editor .progress.active .progress-bar {
@@ -4581,37 +4792,189 @@ textarea.note-editor .input-group-sm > .input-group-btn > .btn {
   background-color: #5cb85c;
 }
 .progress-striped .note-editor .progress-bar-success {
-  background-image: -webkit-gradient(linear, 0 100%, 100% 0, color-stop(0.25, rgba(255, 255, 255, 0.15)), color-stop(0.25, transparent), color-stop(0.5, transparent), color-stop(0.5, rgba(255, 255, 255, 0.15)), color-stop(0.75, rgba(255, 255, 255, 0.15)), color-stop(0.75, transparent), to(transparent));
-  background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
-  background-image: -moz-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
-  background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  background-image: -webkit-gradient(
+    linear,
+    0 100%,
+    100% 0,
+    color-stop(0.25, rgba(255, 255, 255, 0.15)),
+    color-stop(0.25, transparent),
+    color-stop(0.5, transparent),
+    color-stop(0.5, rgba(255, 255, 255, 0.15)),
+    color-stop(0.75, rgba(255, 255, 255, 0.15)),
+    color-stop(0.75, transparent),
+    to(transparent)
+  );
+  background-image: -webkit-linear-gradient(
+    45deg,
+    rgba(255, 255, 255, 0.15) 25%,
+    transparent 25%,
+    transparent 50%,
+    rgba(255, 255, 255, 0.15) 50%,
+    rgba(255, 255, 255, 0.15) 75%,
+    transparent 75%,
+    transparent
+  );
+  background-image: -moz-linear-gradient(
+    45deg,
+    rgba(255, 255, 255, 0.15) 25%,
+    transparent 25%,
+    transparent 50%,
+    rgba(255, 255, 255, 0.15) 50%,
+    rgba(255, 255, 255, 0.15) 75%,
+    transparent 75%,
+    transparent
+  );
+  background-image: linear-gradient(
+    45deg,
+    rgba(255, 255, 255, 0.15) 25%,
+    transparent 25%,
+    transparent 50%,
+    rgba(255, 255, 255, 0.15) 50%,
+    rgba(255, 255, 255, 0.15) 75%,
+    transparent 75%,
+    transparent
+  );
 }
 .note-editor .progress-bar-info {
   background-color: #5bc0de;
 }
 .progress-striped .note-editor .progress-bar-info {
-  background-image: -webkit-gradient(linear, 0 100%, 100% 0, color-stop(0.25, rgba(255, 255, 255, 0.15)), color-stop(0.25, transparent), color-stop(0.5, transparent), color-stop(0.5, rgba(255, 255, 255, 0.15)), color-stop(0.75, rgba(255, 255, 255, 0.15)), color-stop(0.75, transparent), to(transparent));
-  background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
-  background-image: -moz-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
-  background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  background-image: -webkit-gradient(
+    linear,
+    0 100%,
+    100% 0,
+    color-stop(0.25, rgba(255, 255, 255, 0.15)),
+    color-stop(0.25, transparent),
+    color-stop(0.5, transparent),
+    color-stop(0.5, rgba(255, 255, 255, 0.15)),
+    color-stop(0.75, rgba(255, 255, 255, 0.15)),
+    color-stop(0.75, transparent),
+    to(transparent)
+  );
+  background-image: -webkit-linear-gradient(
+    45deg,
+    rgba(255, 255, 255, 0.15) 25%,
+    transparent 25%,
+    transparent 50%,
+    rgba(255, 255, 255, 0.15) 50%,
+    rgba(255, 255, 255, 0.15) 75%,
+    transparent 75%,
+    transparent
+  );
+  background-image: -moz-linear-gradient(
+    45deg,
+    rgba(255, 255, 255, 0.15) 25%,
+    transparent 25%,
+    transparent 50%,
+    rgba(255, 255, 255, 0.15) 50%,
+    rgba(255, 255, 255, 0.15) 75%,
+    transparent 75%,
+    transparent
+  );
+  background-image: linear-gradient(
+    45deg,
+    rgba(255, 255, 255, 0.15) 25%,
+    transparent 25%,
+    transparent 50%,
+    rgba(255, 255, 255, 0.15) 50%,
+    rgba(255, 255, 255, 0.15) 75%,
+    transparent 75%,
+    transparent
+  );
 }
 .note-editor .progress-bar-warning {
   background-color: #f0ad4e;
 }
 .progress-striped .note-editor .progress-bar-warning {
-  background-image: -webkit-gradient(linear, 0 100%, 100% 0, color-stop(0.25, rgba(255, 255, 255, 0.15)), color-stop(0.25, transparent), color-stop(0.5, transparent), color-stop(0.5, rgba(255, 255, 255, 0.15)), color-stop(0.75, rgba(255, 255, 255, 0.15)), color-stop(0.75, transparent), to(transparent));
-  background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
-  background-image: -moz-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
-  background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  background-image: -webkit-gradient(
+    linear,
+    0 100%,
+    100% 0,
+    color-stop(0.25, rgba(255, 255, 255, 0.15)),
+    color-stop(0.25, transparent),
+    color-stop(0.5, transparent),
+    color-stop(0.5, rgba(255, 255, 255, 0.15)),
+    color-stop(0.75, rgba(255, 255, 255, 0.15)),
+    color-stop(0.75, transparent),
+    to(transparent)
+  );
+  background-image: -webkit-linear-gradient(
+    45deg,
+    rgba(255, 255, 255, 0.15) 25%,
+    transparent 25%,
+    transparent 50%,
+    rgba(255, 255, 255, 0.15) 50%,
+    rgba(255, 255, 255, 0.15) 75%,
+    transparent 75%,
+    transparent
+  );
+  background-image: -moz-linear-gradient(
+    45deg,
+    rgba(255, 255, 255, 0.15) 25%,
+    transparent 25%,
+    transparent 50%,
+    rgba(255, 255, 255, 0.15) 50%,
+    rgba(255, 255, 255, 0.15) 75%,
+    transparent 75%,
+    transparent
+  );
+  background-image: linear-gradient(
+    45deg,
+    rgba(255, 255, 255, 0.15) 25%,
+    transparent 25%,
+    transparent 50%,
+    rgba(255, 255, 255, 0.15) 50%,
+    rgba(255, 255, 255, 0.15) 75%,
+    transparent 75%,
+    transparent
+  );
 }
 .note-editor .progress-bar-danger {
   background-color: #d9534f;
 }
 .progress-striped .note-editor .progress-bar-danger {
-  background-image: -webkit-gradient(linear, 0 100%, 100% 0, color-stop(0.25, rgba(255, 255, 255, 0.15)), color-stop(0.25, transparent), color-stop(0.5, transparent), color-stop(0.5, rgba(255, 255, 255, 0.15)), color-stop(0.75, rgba(255, 255, 255, 0.15)), color-stop(0.75, transparent), to(transparent));
-  background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
-  background-image: -moz-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
-  background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  background-image: -webkit-gradient(
+    linear,
+    0 100%,
+    100% 0,
+    color-stop(0.25, rgba(255, 255, 255, 0.15)),
+    color-stop(0.25, transparent),
+    color-stop(0.5, transparent),
+    color-stop(0.5, rgba(255, 255, 255, 0.15)),
+    color-stop(0.75, rgba(255, 255, 255, 0.15)),
+    color-stop(0.75, transparent),
+    to(transparent)
+  );
+  background-image: -webkit-linear-gradient(
+    45deg,
+    rgba(255, 255, 255, 0.15) 25%,
+    transparent 25%,
+    transparent 50%,
+    rgba(255, 255, 255, 0.15) 50%,
+    rgba(255, 255, 255, 0.15) 75%,
+    transparent 75%,
+    transparent
+  );
+  background-image: -moz-linear-gradient(
+    45deg,
+    rgba(255, 255, 255, 0.15) 25%,
+    transparent 25%,
+    transparent 50%,
+    rgba(255, 255, 255, 0.15) 50%,
+    rgba(255, 255, 255, 0.15) 75%,
+    transparent 75%,
+    transparent
+  );
+  background-image: linear-gradient(
+    45deg,
+    rgba(255, 255, 255, 0.15) 25%,
+    transparent 25%,
+    transparent 50%,
+    rgba(255, 255, 255, 0.15) 50%,
+    rgba(255, 255, 255, 0.15) 75%,
+    transparent 75%,
+    transparent
+  );
 }
 .note-editor .media,
 .note-editor .media-body {
@@ -4718,24 +5081,22 @@ textarea.note-editor .input-group-sm > .input-group-btn > .btn {
 }
 .note-editor .panel-body:before,
 .note-editor .panel-body:after {
-  content: " ";
+  content: ' ';
   /* 1 */
 
   display: table;
   /* 2 */
-
 }
 .note-editor .panel-body:after {
   clear: both;
 }
 .note-editor .panel-body:before,
 .note-editor .panel-body:after {
-  content: " ";
+  content: ' ';
   /* 1 */
 
   display: table;
   /* 2 */
-
 }
 .note-editor .panel-body:after {
   clear: both;
@@ -4769,45 +5130,153 @@ textarea.note-editor .input-group-sm > .input-group-btn > .btn {
   border: 0;
 }
 .note-editor .panel > .table-bordered > thead > tr > th:first-child,
-.note-editor .panel > .table-responsive > .table-bordered > thead > tr > th:first-child,
+.note-editor
+  .panel
+  > .table-responsive
+  > .table-bordered
+  > thead
+  > tr
+  > th:first-child,
 .note-editor .panel > .table-bordered > tbody > tr > th:first-child,
-.note-editor .panel > .table-responsive > .table-bordered > tbody > tr > th:first-child,
+.note-editor
+  .panel
+  > .table-responsive
+  > .table-bordered
+  > tbody
+  > tr
+  > th:first-child,
 .note-editor .panel > .table-bordered > tfoot > tr > th:first-child,
-.note-editor .panel > .table-responsive > .table-bordered > tfoot > tr > th:first-child,
+.note-editor
+  .panel
+  > .table-responsive
+  > .table-bordered
+  > tfoot
+  > tr
+  > th:first-child,
 .note-editor .panel > .table-bordered > thead > tr > td:first-child,
-.note-editor .panel > .table-responsive > .table-bordered > thead > tr > td:first-child,
+.note-editor
+  .panel
+  > .table-responsive
+  > .table-bordered
+  > thead
+  > tr
+  > td:first-child,
 .note-editor .panel > .table-bordered > tbody > tr > td:first-child,
-.note-editor .panel > .table-responsive > .table-bordered > tbody > tr > td:first-child,
+.note-editor
+  .panel
+  > .table-responsive
+  > .table-bordered
+  > tbody
+  > tr
+  > td:first-child,
 .note-editor .panel > .table-bordered > tfoot > tr > td:first-child,
-.note-editor .panel > .table-responsive > .table-bordered > tfoot > tr > td:first-child {
+.note-editor
+  .panel
+  > .table-responsive
+  > .table-bordered
+  > tfoot
+  > tr
+  > td:first-child {
   border-left: 0;
 }
 .note-editor .panel > .table-bordered > thead > tr > th:last-child,
-.note-editor .panel > .table-responsive > .table-bordered > thead > tr > th:last-child,
+.note-editor
+  .panel
+  > .table-responsive
+  > .table-bordered
+  > thead
+  > tr
+  > th:last-child,
 .note-editor .panel > .table-bordered > tbody > tr > th:last-child,
-.note-editor .panel > .table-responsive > .table-bordered > tbody > tr > th:last-child,
+.note-editor
+  .panel
+  > .table-responsive
+  > .table-bordered
+  > tbody
+  > tr
+  > th:last-child,
 .note-editor .panel > .table-bordered > tfoot > tr > th:last-child,
-.note-editor .panel > .table-responsive > .table-bordered > tfoot > tr > th:last-child,
+.note-editor
+  .panel
+  > .table-responsive
+  > .table-bordered
+  > tfoot
+  > tr
+  > th:last-child,
 .note-editor .panel > .table-bordered > thead > tr > td:last-child,
-.note-editor .panel > .table-responsive > .table-bordered > thead > tr > td:last-child,
+.note-editor
+  .panel
+  > .table-responsive
+  > .table-bordered
+  > thead
+  > tr
+  > td:last-child,
 .note-editor .panel > .table-bordered > tbody > tr > td:last-child,
-.note-editor .panel > .table-responsive > .table-bordered > tbody > tr > td:last-child,
+.note-editor
+  .panel
+  > .table-responsive
+  > .table-bordered
+  > tbody
+  > tr
+  > td:last-child,
 .note-editor .panel > .table-bordered > tfoot > tr > td:last-child,
-.note-editor .panel > .table-responsive > .table-bordered > tfoot > tr > td:last-child {
+.note-editor
+  .panel
+  > .table-responsive
+  > .table-bordered
+  > tfoot
+  > tr
+  > td:last-child {
   border-right: 0;
 }
 .note-editor .panel > .table-bordered > thead > tr:last-child > th,
-.note-editor .panel > .table-responsive > .table-bordered > thead > tr:last-child > th,
+.note-editor
+  .panel
+  > .table-responsive
+  > .table-bordered
+  > thead
+  > tr:last-child
+  > th,
 .note-editor .panel > .table-bordered > tbody > tr:last-child > th,
-.note-editor .panel > .table-responsive > .table-bordered > tbody > tr:last-child > th,
+.note-editor
+  .panel
+  > .table-responsive
+  > .table-bordered
+  > tbody
+  > tr:last-child
+  > th,
 .note-editor .panel > .table-bordered > tfoot > tr:last-child > th,
-.note-editor .panel > .table-responsive > .table-bordered > tfoot > tr:last-child > th,
+.note-editor
+  .panel
+  > .table-responsive
+  > .table-bordered
+  > tfoot
+  > tr:last-child
+  > th,
 .note-editor .panel > .table-bordered > thead > tr:last-child > td,
-.note-editor .panel > .table-responsive > .table-bordered > thead > tr:last-child > td,
+.note-editor
+  .panel
+  > .table-responsive
+  > .table-bordered
+  > thead
+  > tr:last-child
+  > td,
 .note-editor .panel > .table-bordered > tbody > tr:last-child > td,
-.note-editor .panel > .table-responsive > .table-bordered > tbody > tr:last-child > td,
+.note-editor
+  .panel
+  > .table-responsive
+  > .table-bordered
+  > tbody
+  > tr:last-child
+  > td,
 .note-editor .panel > .table-bordered > tfoot > tr:last-child > td,
-.note-editor .panel > .table-responsive > .table-bordered > tfoot > tr:last-child > td {
+.note-editor
+  .panel
+  > .table-responsive
+  > .table-bordered
+  > tfoot
+  > tr:last-child
+  > td {
   border-bottom: 0;
 }
 .note-editor .panel-heading {
@@ -5069,24 +5538,22 @@ button.note-editor .close {
 }
 .modal-footer:before,
 .modal-footer:after {
-  content: " ";
+  content: ' ';
   /* 1 */
 
   display: table;
   /* 2 */
-
 }
 .modal-footer:after {
   clear: both;
 }
 .modal-footer:before,
 .modal-footer:after {
-  content: " ";
+  content: ' ';
   /* 1 */
 
   display: table;
   /* 2 */
-
 }
 .modal-footer:after {
   clear: both;
@@ -5267,7 +5734,7 @@ button.note-editor .close {
 }
 .popover .arrow:after {
   border-width: 10px;
-  content: "";
+  content: '';
 }
 .popover.top .arrow {
   left: 50%;
@@ -5278,7 +5745,7 @@ button.note-editor .close {
   bottom: -11px;
 }
 .popover.top .arrow:after {
-  content: " ";
+  content: ' ';
   bottom: 1px;
   margin-left: -10px;
   border-bottom-width: 0;
@@ -5293,7 +5760,7 @@ button.note-editor .close {
   border-right-color: rgba(0, 0, 0, 0.25);
 }
 .popover.right .arrow:after {
-  content: " ";
+  content: ' ';
   left: 1px;
   bottom: -10px;
   border-left-width: 0;
@@ -5308,7 +5775,7 @@ button.note-editor .close {
   top: -11px;
 }
 .popover.bottom .arrow:after {
-  content: " ";
+  content: ' ';
   top: 1px;
   margin-left: -10px;
   border-top-width: 0;
@@ -5323,7 +5790,7 @@ button.note-editor .close {
   border-left-color: rgba(0, 0, 0, 0.25);
 }
 .popover.left .arrow:after {
-  content: " ";
+  content: ' ';
   right: 1px;
   border-right-width: 0;
   border-left-color: #ffffff;
@@ -5394,20 +5861,56 @@ button.note-editor .close {
   text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
 }
 .carousel-control.left {
-  background-image: -webkit-gradient(linear, 0% top, 100% top, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.0001)));
-  background-image: -webkit-linear-gradient(left, color-stop(rgba(0, 0, 0, 0.5) 0%), color-stop(rgba(0, 0, 0, 0.0001) 100%));
-  background-image: -moz-linear-gradient(left, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.0001) 100%);
-  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.0001) 100%);
+  background-image: -webkit-gradient(
+    linear,
+    0% top,
+    100% top,
+    from(rgba(0, 0, 0, 0.5)),
+    to(rgba(0, 0, 0, 0.0001))
+  );
+  background-image: -webkit-linear-gradient(
+    left,
+    color-stop(rgba(0, 0, 0, 0.5) 0%),
+    color-stop(rgba(0, 0, 0, 0.0001) 100%)
+  );
+  background-image: -moz-linear-gradient(
+    left,
+    rgba(0, 0, 0, 0.5) 0%,
+    rgba(0, 0, 0, 0.0001) 100%
+  );
+  background-image: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0.5) 0%,
+    rgba(0, 0, 0, 0.0001) 100%
+  );
   background-repeat: repeat-x;
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#80000000', endColorstr='#00000000', GradientType=1);
 }
 .carousel-control.right {
   left: auto;
   right: 0;
-  background-image: -webkit-gradient(linear, 0% top, 100% top, from(rgba(0, 0, 0, 0.0001)), to(rgba(0, 0, 0, 0.5)));
-  background-image: -webkit-linear-gradient(left, color-stop(rgba(0, 0, 0, 0.0001) 0%), color-stop(rgba(0, 0, 0, 0.5) 100%));
-  background-image: -moz-linear-gradient(left, rgba(0, 0, 0, 0.0001) 0%, rgba(0, 0, 0, 0.5) 100%);
-  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.0001) 0%, rgba(0, 0, 0, 0.5) 100%);
+  background-image: -webkit-gradient(
+    linear,
+    0% top,
+    100% top,
+    from(rgba(0, 0, 0, 0.0001)),
+    to(rgba(0, 0, 0, 0.5))
+  );
+  background-image: -webkit-linear-gradient(
+    left,
+    color-stop(rgba(0, 0, 0, 0.0001) 0%),
+    color-stop(rgba(0, 0, 0, 0.5) 100%)
+  );
+  background-image: -moz-linear-gradient(
+    left,
+    rgba(0, 0, 0, 0.0001) 0%,
+    rgba(0, 0, 0, 0.5) 100%
+  );
+  background-image: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0.0001) 0%,
+    rgba(0, 0, 0, 0.5) 100%
+  );
   background-repeat: repeat-x;
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#80000000', GradientType=1);
 }
@@ -5513,12 +6016,11 @@ button.note-editor .close {
 }
 .clearfix:before,
 .clearfix:after {
-  content: " ";
+  content: ' ';
   /* 1 */
 
   display: table;
   /* 2 */
-
 }
 .clearfix:after {
   clear: both;
